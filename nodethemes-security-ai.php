@@ -2,7 +2,7 @@
 /**
  * Plugin Name:       NodeThemes Security AI
  * Description:       WordPress security with a firewall, login protection and lockouts, two-factor login, a WordPress core file check, a malware scan, known-vulnerability alerts, an activity log and safe one-click hardening that is tested before it stays on.
- * Version:           1.0.0
+ * Version:           1.0.1
  * Requires at least: 6.0
  * Requires PHP:      7.4
  * Author:            NodeThemes
@@ -21,7 +21,7 @@ if ( defined( 'NTSA_VERSION' ) ) {
 	return;
 }
 
-define( 'NTSA_VERSION', '1.0.0' );
+define( 'NTSA_VERSION', '1.0.1' );
 define( 'NTSA_FILE', __FILE__ );
 define( 'NTSA_DIR', plugin_dir_path( __FILE__ ) );
 define( 'NTSA_URL', plugin_dir_url( __FILE__ ) );

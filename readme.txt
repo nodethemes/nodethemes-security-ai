@@ -4,7 +4,7 @@ Tags: security, firewall, two-factor, malware scanner, login protection
 Requires at least: 6.0
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -84,6 +84,10 @@ This plugin connects to these services:
 * qrcode-generator 2.0.4 by Kazuhiko Arase, MIT license – https://github.com/kazuhikoarase/qrcode-generator (QR code on the two-factor setup screen; made in your browser, nothing is sent anywhere)
 
 == Changelog ==
+
+= 1.0.1 =
+* Malware scan: the standard Google Tag Manager <noscript> code is no longer reported as a hidden iframe.
+* "1 second" instead of "1 seconds" after a short scan.
 
 = 1.0.0 =
 * First release: firewall, login limits and lockouts, strong passwords, two-factor login, WordPress core file check, malware scan, known-vulnerability check, activity log, tested hardening, security checklist and dashboard widget.

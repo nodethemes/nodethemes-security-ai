@@ -653,7 +653,7 @@ class NTSA_Admin {
 			<?php
 			if ( ! empty( $mr['time'] ) ) {
 				/* translators: 1: date, 2: files, 3: seconds */
-				echo esc_html( sprintf( __( 'Last scan: %1$s · %2$d files · %3$d seconds', 'nodethemes-security-ai' ), self::when( $mr['time'] ), (int) $mr['files'], (int) $mr['secs'] ) );
+				echo esc_html( sprintf( _n( 'Last scan: %1$s · %2$d files · %3$d second', 'Last scan: %1$s · %2$d files · %3$d seconds', max( 1, (int) $mr['secs'] ), 'nodethemes-security-ai' ), self::when( $mr['time'] ), (int) $mr['files'], max( 1, (int) $mr['secs'] ) ) );
 				if ( ! empty( $mr['skipped'] ) ) {
 					/* translators: %d: files */
 					echo ' · ' . esc_html( sprintf( __( '%d files over 3 MB skipped', 'nodethemes-security-ai' ), (int) $mr['skipped'] ) );
