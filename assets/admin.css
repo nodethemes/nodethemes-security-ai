@@ -1,0 +1,46 @@
+.ntsa-wrap{max-width:1100px}
+.ntsa-head{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;margin:18px 0 10px;padding:22px 26px;border-radius:14px;background:linear-gradient(135deg,#1e3a8a,#0f766e);color:#fff}
+.ntsa-head h1{color:#fff;margin:0;font-size:22px;line-height:1.3;padding:0}
+.ntsa-head p{margin:4px 0 0;color:#dbeafe}
+.ntsa-ver{font-size:12px;background:rgba(255,255,255,.2);padding:2px 9px;border-radius:20px;vertical-align:middle}
+.ntsa-pro{display:inline-block;font-size:10px;font-weight:700;line-height:1.6;background:linear-gradient(135deg,#f59e0b,#ef4444);color:#fff;border-radius:4px;padding:0 6px;vertical-align:middle;letter-spacing:.03em}
+.ntsa-tabs{margin-bottom:16px}
+.ntsa-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-bottom:16px}
+.ntsa-card{background:#fff;border:1px solid #e2e8f0;border-radius:12px;padding:18px 22px;margin-bottom:16px;box-sizing:border-box}
+.ntsa-grid .ntsa-card{margin-bottom:0}
+.ntsa-card h2{margin:0 0 10px;font-size:16px}
+.ntsa-card h3{margin:14px 0 6px;font-size:14px}
+.ntsa-grid .ntsa-card h3{margin-top:0}
+.ntsa-big{font-size:28px;font-weight:700;margin:4px 0 8px}
+.ntsa-ok{color:#15803d}.ntsa-bad{color:#b91c1c}.ntsa-warn{color:#b45309}
+.ntsa-ok .dashicons{color:#16a34a}
+.ntsa-check{margin:0}.ntsa-check li{display:flex;gap:8px;align-items:flex-start;margin:0 0 8px;line-height:1.5}
+.ntsa-check li .dashicons{flex:0 0 20px;margin-top:1px}
+.ntsa-check li.is-ok .dashicons{color:#16a34a}.ntsa-check li.is-bad .dashicons{color:#dc2626}.ntsa-check li.is-warn .dashicons{color:#d97706}
+.ntsa-list{margin:0 0 10px}.ntsa-list li{margin:0 0 6px}.ntsa-list .dashicons{color:#16a34a}
+.ntsa-switch{display:block;margin:0 0 6px}
+.ntsa-inline input.small-text{width:64px}
+.ntsa-pill{display:inline-block;font-size:11px;font-weight:600;line-height:1.7;padding:0 8px;border-radius:20px;white-space:nowrap}
+.ntsa-pill-ok{background:#dcfce7;color:#166534}.ntsa-pill-bad{background:#fee2e2;color:#991b1b}.ntsa-pill-warn{background:#fef3c7;color:#92400e}.ntsa-pill-off{background:#f1f5f9;color:#475569}
+.ntsa-head .ntsa-pill-bad{background:#fee2e2}
+.ntsa-table-wrap{overflow-x:auto}
+.ntsa-table td,.ntsa-table th{vertical-align:top}
+.ntsa-break{word-break:break-all;max-width:420px}
+.ntsa-snippet{display:inline-block;margin-top:4px;font-size:11px;max-width:420px;white-space:pre-wrap;word-break:break-all}
+.ntsa-files{margin:0 0 10px;max-height:320px;overflow:auto}.ntsa-files li{margin:0 0 4px}
+.ntsa-status{color:#475569;margin-left:8px}
+.ntsa-bar{height:6px;background:#e2e8f0;border-radius:6px;overflow:hidden;margin:6px 0 10px;max-width:520px}
+.ntsa-bar span{display:block;height:100%;width:0;background:#2563eb;transition:width .3s}
+.ntsa-pro-box{background:#f8fbff;border:1px solid #dbe4f0;border-left:4px solid #2563eb;border-radius:10px;padding:12px 14px}
+.ntsa-lock{margin:6px 8px 0 0!important}.ntsa-lock .dashicons{font-size:16px;line-height:1.9;color:#64748b}
+.ntsa-feature h2 .ntsa-pro{margin-left:4px}
+.ntsa-harden td{padding:12px 10px;vertical-align:middle}
+.ntsa-harden-state{width:60px}.ntsa-harden-btn{width:170px;text-align:right}
+.ntsa-warn-text{color:#b45309}
+.ntsa-vuln{border:1px solid #fecaca;background:#fef2f2;border-radius:10px;padding:10px 14px;margin:0 0 10px}
+.ntsa-vuln h3{margin:0 0 6px}.ntsa-vuln li{margin:0 0 6px}
+.ntsa-small-link{margin-left:10px}
+.ntsa-sev-3 td{background:#fff7ed!important}
+.ntsa-pages a,.ntsa-pages strong{display:inline-block;padding:2px 6px}
+#ntsa_widget .ntsa-check li{font-size:13px}
+@media (max-width:782px){.ntsa-head{padding:16px}.ntsa-harden-btn{width:auto;text-align:left}.ntsa-harden tr{display:block;border-bottom:1px solid #e2e8f0}.ntsa-harden td{display:block;padding:8px 10px}.ntsa-status{display:block;margin:8px 0 0}}
